@@ -3,8 +3,8 @@ import webbrowser as web
 from geopy.geocoders import Nominatim
 
 #
-# @author Erwan - 2nde5
-# erwanx3z@gmail.com - github.com/erwanx2z
+# @author Erwan
+# Github: github.com/erwanx2z
 #
 def getValues(ggaCoordonates):
     latitudeValue = float(ggaCoordonates[17:19]) + float(ggaCoordonates[19:28]) / 60
